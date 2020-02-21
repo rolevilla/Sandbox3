@@ -1,0 +1,32 @@
+{
+  "description": "This is a static template with no bundling",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [
+    "template",
+    "codesandbox",
+    "static"
+  ],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "name": "cip5q",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "serve": "^11.2.0"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start": "serve"
+  }
+}
